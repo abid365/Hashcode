@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+/* font-family:'Shadows Into Light',cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Shadows+Into+Light&display=swap');
+/* Font-family: 'Kalam' , cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Kalam&family=Shadows+Into+Light&display=swap');
+/* Font-family: 'Comfortaa' , cursive */
+
+html{
+    scroll-behavior: smooth; 
+}
+
+#navicon{
+    height:45px;
+    width:45px;
+    padding-right:20px;
+    
+}
+
+.navbrand{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    font-family:'kalam' , cursive;
+    color:#333;
+    font-weight:bolder;
+    
+
+}
+
+#brandname{
+    font-size:2em;
+}
+
+
+#navmenu{
+    text-decoration: none;
+    color:black;
+    transition: animation .3s;
+    font-size:15px;
+}
+
+#navmenu:hover{
+    color:#36454f;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin-top:0.5em;
+    padding-top:10px;
+    flex-wrap:wrap;
+    
+}
+
+#txt1{
+    text-align: center;
+    margin-top:1em;
+}
+
+#Hype{
+    font-family: 'kalam' , cursive;
+}
+
+#desctxt{
+    text-align:center;
+    font-size:16px;   
+}
+
+#txt2{
+    
+    text-align:center;
+    font-size:25px;
+    margin-top:4em;
+    
+}
+
+#icons{
+    height:70px;
+    width:70px;
+    padding-bottom:20px;
+}
+
+.com1{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:1em;
+}
+
+@media screen and (max-width:600px)
+{
+    .com1 {
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        align-items:center;
+    }
+}
+ 
+    
+
+
+.item1{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.Dc{
+    background-color:#E6E6FA;
+    transition: box-shadow .3s;
+}
+
+.Dc:hover{
+    box-shadow:7px 8px #333;
+}
+
+.one{
+    border:1px solid #E2E2E2;
+    border-radius:16px;
+    padding:10px 10px;
+    margin-bottom: 2em;
+}
+
+/* page two css > */
+
+.rsrc{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:2em;
+}
+
+#txt4{
+    font-family:'Comfortaa' , cursive;
+}
+
+.fcc{
+    height:fit-content;
+    width:fit-content;
+    padding:50px 50px;
+    border:1px solid #E2E2E2;
+    border-radius:10px;
+    background-color: #E6E6FA;
+    color: #36454f;
+    text-align: justify;
+    margin-bottom: 20px;
+    
+}
+
+#txt5{
+        font-weight:bold;
+        font-size:16px;
+        text-align:center;
+}
+
+#links{
+    text-decoration: none;
+}
+
