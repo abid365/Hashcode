@@ -122,7 +122,7 @@ nav{
     border-radius:16px;
     padding:10px 10px;
     margin-bottom: 2em;
-    background-color: #fffafa;
+    
 }
 
 /* page two css > */
@@ -162,3 +162,10 @@ nav{
     text-decoration: none;
 }
 
+.three{
+    border:1px solid #E2E2E2;
+    border-radius:16px;
+    padding:30px 25px;
+    margin-bottom: 2em;
+    
+}
