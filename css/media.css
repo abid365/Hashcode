@@ -3,12 +3,13 @@
     border-radius: 7px;
     padding: 5px 5px;
     width:250px;
-    height: 370px;
+    height: 380px;
     background-color: #fffafa;
     display: flex;
     /* align-items:; */
     flex-direction: column;
     justify-content: flex-start;
+   
 }
 
 .media{
@@ -47,4 +48,17 @@ figcaption{
     width: 35px;
     padding-bottom: 10px;
     margin-top: 10px;
+}
+
+.btn-ola{
+    width: fit-content;
+    margin:auto;
+    padding-bottom: 5px;
+}
+
+#social-description{
+    padding: 0px 40px;
+    font-size: 12px;
+    font-family: monospace;
+    text-justify: justify;
 }
