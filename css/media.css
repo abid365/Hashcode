@@ -10,7 +10,23 @@
 .media{
     display: flex;
     flex-direction : row;
-    justify-content: space-between;
-    margin: 10px;
+    justify-content: space-around;
     
+    
+}
+
+@media screen and (max-width: 600px){
+    .media{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .item{
+        width: 200px;
+        height: 250px;
+        margin: 10px;
+    }
 }
