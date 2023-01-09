@@ -109,11 +109,28 @@ nav{
 }
 
 .Dc{
+    
     background-color:#E6E6FA;
     transition: box-shadow .3s;
 }
 
 .Dc:hover{
+    box-shadow:7px 8px #333;
+}
+
+.info{
+    /* padding: 10px 15px; */
+    background-color:#E6E6FA;
+    transition: box-shadow .3s;
+    font-size: 10px;
+    border: 1px solid #36454f;
+    border-radius: 4px;
+    text-decoration: none;;
+    padding: 10px 15px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.info:hover{
     box-shadow:7px 8px #333;
 }
 
@@ -168,4 +185,27 @@ nav{
     padding:30px 25px;
     margin-bottom: 2em;
     
+}
+
+/* css stacks */
+.linux{
+    height: 50px;
+    width: 50px;
+}
+
+.ico-txt{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.stacks>p{
+    font-size: 11px;
+    color: #333;
+}
+
+.parent-stack{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
 }
