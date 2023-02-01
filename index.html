@@ -1,134 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Hashcode</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/design.css">
-  <link rel="stylesheet" href="css/media.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image" href="images/letter-h.png">
-<!--Google Font Rel-->
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Yellowtail&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Yellowtail&display=swap" rel="stylesheet">
-  <!-- Font Awesome kit-->
-  <script src="https://kit.fontawesome.com/6811f488f7.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>HashCode</title>
 </head>
-
-<html>
- <body>
-  <div class="container" id="home">
-    <div class="header">
-      <nav>
-        <div class="navbrand">
-          <img id="navicon" src="images/letter-h.png">
-          <p id="brandname">Hashcode</p>
-        </div>
-        <a id="navmenu" href="#home">Home</a>
-        <a id="navmenu" href="#pg2">Links</a>
-        <a id="navmenu" href="#">About Us</a>
-      </nav>
-    </div>
-
-    <section class="one"> <!--Page one-->
-      <h1 id="txt1">Let's Learn With <span id="Hype">Hashcode</span> !!</h1>
-      <p id="desctxt">Hashcode is a versataile coding community. <br>For the students by the students</p>
-      <div class="container">
-        <div class="row">
-          <p id="txt2">Join With The Community</p>
-          <div class="com1"> <!--Flex for social connections-->
-            
-            <div class="item1">
-              <img id="icons" src="images/discord.svg">
-            <a href="#"><button class="Dc">Discord</button></a>
-            </div>
-            <!---->
-            <div class="item1">
-              <img id="icons" src="images/telegram.svg">
-              <a href="#"><button class="Dc">Telegram</button> </a>
-            </div>
-            <!---->
-            <div class="item1">
-              <img id="icons" src="images/stack-overflow.svg">
-              <a href="#"><button class="Dc">Stck Ovrflw</button> </a>
-            </div>
-          </div>
-        </div>
+<body class="bg-red-200">
+  <header>
+    <nav class="container mx-auto p-2 fixed top-0 right-0 left-0 bg-white flex flex-row justify-between items-center">
+      <div class="brand-pic flex flex-row g-4 items-center">
+        <img src="images/letter-h.png" alt="" class="h-9 w-9">
+        <h1 class="font-extrabold text-2xl text-dark pt-2">hashCode</h1>
       </div>
-    </section>
-
-    <section class="one" id="pg2"> <!--Page two-->
-      <div class="flexbox-container rsrc">
-          <h3 id="txt3">Hey, coding is not easy! You may get lost easily.<br></h3>
-          <p id="txt4">So here are some useful resources that might help you :</p>
-          <!--Using a nested flexbox to organize coding blogs-->
-          <div class="codes">
-            <!--Free code camp-->
-              <div class="fcc">
-                  <h id="txt5"><i class="fa-brands fa-free-code-camp"></i> freecodecamp :</h>
-                  <p>
-                    FreeCodeCamp is a non-profit organization that offers free coding classes and certification in web development. It was founded in 2014 by Quincy Larson, a software developer and teacher. The organization's mission is to provide a high-quality education in computer science to anyone who wants to learn, regardless of their income or background.
-                    <br>Here's the link : <a id="links" href="https://www.freecodecamp.org/"><i class="fa-brands fa-free-code-camp"></i> freecodecamp</a>
-                  </p>
-              </div>
-            <!--Geeks for geeks--> 
-              <div class="fcc">
-                <h id="txt5"><i class="fa-brands fa-gg"></i> geeks for geeks : </h>
-                <p>
-                  GeeksforGeeks offers a variety of online resources to help people learn and improve their programming skills, including articles, tutorials, and practice problems. The site covers a wide range of topics, including algorithms, data structures, programming languages, and computer science concepts. In addition to the educational resources, GeeksforGeeks also has a community forum where users can ask for help, share their work, and get feedback from other users and experts.
-                  <br> Here's the link : <a id="links" href="https://www.geeksforgeeks.org/"><i class="fa-brands fa-gg"></i> geeks for geeks</a>
-                </p>
-              </div>
-            <!--Css Tricks-->
-              <div class="fcc">
-                <h id="txt5"><i class="fa-solid fa-asterisk"></i> css tricks : </h>
-                <p>
-                  CSS Tricks is a website that provides resources and tutorials for web developers and designers. It was founded in 2007 by Chris Coyier, a web developer and designer. The site covers a wide range of topics related to web development, including HTML, CSS, JavaScript, and design principles.
-                  <br> Here's the link : <a id="links" href="https://css-tricks.com/"><i class="fa-solid fa-asterisk"></i> css tricks</a>
-                </p>
-              </div> 
-            <!--py4e -python 4 everybody-->
-              <div class="fcc">
-                <h id="txt5"><i class="fa-brands fa-python"></i> PY4E :</h>
-                <p>Python for Everybody (Py4e) is a free online course that teaches the Python programming language. It was created by Dr. Charles Severance, a Professor in the School of Information at the University of Michigan. The course is designed to be self-paced, so students can learn at their own pace and on their own schedule.
-                  <br> Here's the link : <a id="links" href="https://www.py4e.com/"><i class="fa-brands fa-python"></i> PY4E</a>
-                </p>
-                
-              </div>
-          </div>
+      <div class="">
+        <ul class="flex flex-row g-4 items-center">
+          <li class="p-2">Blog</li>
+          <li class="p-2">Our Goals</li>
+          <li class="p-2">Contributors</li>
+        </ul>
       </div>
-    </section>
 
-    <section> <!--Page three-->
-        
-    </section>
-
-
-
-
-
-
-  </div>
-
-
- </body>
+    </nav>
+  </header>
+  
+</body>
 </html>
